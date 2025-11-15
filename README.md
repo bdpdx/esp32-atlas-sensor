@@ -24,3 +24,18 @@ all these files from a larger project I've been working on.
 This repo is intended to serve as an example of code I've written and
 not a standalone project. As such it hasn't been compiled nor is it
 intended to produce an executable.
+
+The ESP32 chip I'm using is limited to 4MB of memory of which about
+1.4MB is available for program space. As such, I've disabled both
+C++ exceptions and the C++ standard library (this saves about 300KB
+of space). For this reason you'll see a lot of code for fundamental
+things like dispatch queues, semaphores, etc. as it's far cheaper
+space-wise to implement just what I need myself.
+
+Additionally, the pattern:
+
+err = someFunction();
+if (!err) ...
+
+is used liberally as this pattern is also far less space-intensive
+than enabling C++ exceptions.
