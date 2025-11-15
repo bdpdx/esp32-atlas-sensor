@@ -17,3 +17,10 @@ common to all EZO chips. Subclasses such at AtlasPH and AtlasEC inherit
 from the AtlasSensor and implement operations specific to the the
 individual (pH, EC, etc.) product.
 
+There are many other files such as a dispatch framework, utilities,
+etc. I've included these files for reference but I've just pulled
+all these files from a larger project I've been working on.
+
+This repo is intended to serve as an example of code I've written and
+not a standalone project. As such it hasn't been compiled nor is it
+intended to produce an executable.
