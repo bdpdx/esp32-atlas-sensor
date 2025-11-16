@@ -1,3 +1,8 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 #include <dirent.h>
 #include <fcntl.h>
 #include <stdio.h>

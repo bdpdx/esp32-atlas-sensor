@@ -1,3 +1,8 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 #include "atomic.h"
 
 bool atomicUInt32CompareExchange(AtomicUInt32 *object, uint32_t *expected, uint32_t desired) {

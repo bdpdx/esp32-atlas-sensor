@@ -1,3 +1,8 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 // Class providing a simple locking mechanism (aka mutex).
 //
 // Intended use case is for mutually exclusive access of shared resources. For any type

@@ -1,3 +1,8 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 #include "atlasEC.h"
 #include "atlasRTD.h"
 #include "esp_random.h"

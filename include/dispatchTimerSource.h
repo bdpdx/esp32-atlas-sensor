@@ -1,3 +1,7 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
 
 #include <esp_timer.h>
 

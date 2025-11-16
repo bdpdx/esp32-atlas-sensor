@@ -1,3 +1,8 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 #include "cJSONAdditions.h"
 #include "common.h"
 #include "utility.h"

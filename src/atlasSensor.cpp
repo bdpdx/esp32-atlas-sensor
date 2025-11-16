@@ -1,3 +1,8 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 #include "atlasSensor.h"
 
 // response byte (1) + largest string (40) + terminator (1: '\0')

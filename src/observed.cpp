@@ -1,3 +1,8 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 #include "observed.h"
 
 Observed::Message::Message(uint32_t tag, UnixTime when) :

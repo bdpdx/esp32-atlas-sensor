@@ -1,9 +1,13 @@
+//
+// Copyright © 2025 Brian Doyle. All rights reserved.
+// MIT License
+//
+
 #include <errno.h>
 
 #include "semaphore.h"
 
 void Semaphore::signal() {
-
     xTaskNotifyGive(task);
     task = nullptr;
 }
